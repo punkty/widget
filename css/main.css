@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    margin: 100px auto;
+    max-width: 700px;
+}
+
+.outsideBorder {
+    border: solid #0e0e0e 2px;
+    height: 250px;
+    max-width: 100%;
+    padding: 20px;
+}
+.widget {
+    background-color: #ededed;
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */    
+}
+.inputArea,
+.costInformationArea {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    padding: 5%;
+
+}
+.inputArea > h3, input {
+    margin-left: 15px;
+    vertical-align: center;
+}
+.costInformationArea {
+    text-align: center;
+}
+
+.calculatedTotalArea {
+    border-top: solid #0e0e0e 1px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+.calculatedTotalArea > h4 {
+    margin-top: 15px;
+}
