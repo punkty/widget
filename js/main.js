@@ -12,7 +12,7 @@
     
     });
 
-// Modal Section code
+// Modal Section
 
 let modal = document.querySelector(".modal");
 let modalBtn = document.querySelector(".displayModalBtn");
@@ -33,15 +33,10 @@ window.onclick = function(event) {
     }
 }
 
-// Counter widget code
-
-
-
-
-
-
 })();
 
+
+// Counter Widget Section
 let counter = document.querySelector(".counter"),
     addButton = document.querySelector(".addCount"),
     minusButton = document.querySelector(".minusCount");
