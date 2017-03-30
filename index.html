@@ -7,24 +7,50 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-    <article>
-        <section class="outsideBorder">
-            <section class="widget">
-                <section class="inputArea">
-                <h3>Number of Widgets to buy:</h3>
-                <input class='amount' type="number" name="" value="widgetCount">
-                </section>
-                <section class="costInformationArea">
-                    <p>Cost per Widget:</p>
-                    <p>$1.50/each</p>
-                </section>
-                <section class="calculatedTotalArea">
-                    <h4>Total:<span class="total">0.00</span></h4>
-                </section>
-            </section>
+        <main>
+            <article class="purchaseWidget">
+                <section class="outsideBorder">
+                    <section class="widget">
+                        <section class="purchaseBox">
+                        <h3>Number of Widgets to buy:</h3>
+                        <input class='amount' type="number" name="">
+                        </section>
+                        <section class="costInformationArea">
+                            <p>Cost per Widget:</p>
+                            <p>$1.50/each</p>
+                        </section>
+                        <section class="calculatedTotalArea">
+                            <h4>Total:$<span class="total">0.00</span></h4>
+                        </section>
+                    </section>
 
-        </section>
-    </article>
+                </section>
+            </article>
+            <artcile class="helloModal">
+                <section class="greetingBox">
+                    <h3>Hello page!</h3>
+                    <button class="displayModalBtn">Click me here</button>
+                    <section class="modal">
+                        <section class="modal-content">
+                    
+                        <p>Hello from the Modal</p>
+                        <button class="close">Close</button>
+                        </section><!-- end of modal content -->
+                    </section><!-- modal section -->
+                </section>
+            </artcile>
+            <article class="numberCount">
+                <section class="countWidget">
+                        <input type="number" class="counter">
+                    <section class="counterToggle">
+                        <button class="addCount">&#9651;</button>
+                        <button class="minusCount">&#9661;</button>
+                    </section>
+                </section>
+            </article>
+        </main>        
     </body>
     <script src="js/main.js"></script>
 </html>
+
+<!-- Trigger/Open The Modal -->
